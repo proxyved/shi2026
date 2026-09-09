@@ -1,0 +1,36 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "maptol local",
+            "username": "root",
+            "connectionTimeout": 30,
+            "database": "user_cred",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MAAPtolDB",
+            "username": "root",
+            "connectionTimeout": 30,
+            "database": "user_auth",
+            "askForPassword": true
+        }
+    ]
+}
